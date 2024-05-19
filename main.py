@@ -25,7 +25,10 @@ def get_label(index, hand, results):
             output = text, coords
     return output
 
-# Make directory for output images if it doesn't exist
+# Make directory for output images
+# I would actually write them in a file for future refrence if it didn't take so much space haha
+#Using imwrite
+
 if not os.path.exists('Output Images'):
     os.mkdir('Output Images')
 
